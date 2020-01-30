@@ -160,7 +160,7 @@ $conn=db_connect();
                             <h6 style="margin-left: 364px;">Please Fill All Details</h6>
                         </div>
                         
-                        <form action="action/insert.php" method="post" name="myform" id="submitform">
+                        <form action="backend/insert.php" method="post" name="myform" id="submitform">
                            
                             <div class="col-md-10" id="container">
                             <br>
