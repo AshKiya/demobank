@@ -3,26 +3,6 @@ include("include/db_conf.php");
 include("include/db_functions.php");
 $conn=db_connect();
 
-if(isset($_POST['submit']))
-{
-    $username=mysqli_real_escape_string($conn, $_POST['username']);
-    $password=mysqli_real_escape_string($conn, $_POST['password']);
-    
-    $sql="Select username, password from bank_account where username='$username' AND password='$password'";
-    $query=mysqli_query($conn, $sql);
-    
-    $user=mysqli_num_rows($query);
-    if($user == 1)
-    {
-         echo "<script>window.location.href='home.php';</script>";
-        $_SESSION['username']=$username;
-    }else
-    {
-        echo "<script> alert('Invalid Username and Password'); </script>";
-    }
-        
-    
-}
 
 ?>
 
@@ -162,7 +142,7 @@ if(isset($_POST['submit']))
                             
                         </div>
                         
-                        <form method="post" name="myform">
+                        <form action="backend/login.php" method="post" name="myform">
                             <div class="col-md-10" id="container">
                                 <br>
                             <div><label>Email ID</label>
