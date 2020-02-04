@@ -56,7 +56,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="about.php">About Us</a></li>
+                                    
                                     
                                     <li><a href="contact.php">Contact</a></li>
                                     <li><a href="login.php">LogIn</a></li>
