@@ -59,8 +59,8 @@
                                     <li><a href="about.php">About Us</a></li>
                                     
                                     <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="about.php">LogIn</a></li>
-                                    <li><a href="about.php">SignUp</a></li>
+                                    <li><a href="login.php">LogIn</a></li>
+                                    <li><a href="register.php">SignUp</a></li>
                                 </ul>
                             </div>
                             
