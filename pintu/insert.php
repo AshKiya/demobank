@@ -25,9 +25,9 @@ if(isset($_POST['submit']))
     $sql="INSERT INTO `bank_account` (`id`, `name`, `contact`, `accnum`, `username`, `password`, `date`) VALUES (NULL, '$name', '$contact', '$accnum', '$username', '$password', now());";
     $query=mysqli_query($connection , $sql);
     if($query){
-        echo "<script>window.location.href="home.php";</script>";
+        header("location:index.php");
     }else{
-        echo "<script>alert('Something Is Going Wrong');</script>";
+        echo "Something Went Wrong';
     }
     }
 }
