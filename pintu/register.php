@@ -155,7 +155,7 @@
                             <h6 style="margin-left: 364px;">Please Fill All Details</h6>
                         </div>
                         
-                        <form method="post" name="myform" id="submitform">
+                        <form method="post" action="insert.php" name="myform" id="submitform">
                            
                             <div class="col-md-10" id="container">
                             <br>
