@@ -25,7 +25,7 @@ if(isset($_POST['submit']))
     $sql="INSERT INTO `bank_account` (`id`, `name`, `contact`, `accnum`, `username`, `password`, `date`) VALUES (NULL, '$name', '$contact', '$accnum', '$username', '$password', now());";
     $query=mysqli_query($connection , $sql);
     if($query){
-        header("location:index.php");
+        header("location:home.php");
     }else{
         echo "Something Went Wrong";
     }
