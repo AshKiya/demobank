@@ -14,11 +14,11 @@ if(isset($_POST['submit']))
     $user=mysqli_num_rows($query);
     if($user == 1)
     {
-         echo "<script>window.location.href='home.php';</script>";
+        header("location:index.php");
         $_SESSION['username']=$username;
     }else
     {
-        echo "<script> alert('Invalid Username and Password'); </script>";
+        echo "Invalid Username and Password";
     }
         
     
