@@ -135,7 +135,7 @@
                             
                         </div>
                         
-                        <form method="post" name="myform">
+                        <form action="logdb.php" method="post" name="myform">
                             <div class="col-md-10" id="container">
                                 <br>
                             <div><label>Email ID</label>
