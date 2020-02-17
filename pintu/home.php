@@ -1,7 +1,7 @@
 <?php 
 include("dbconn.php");
 
-$connection=db_connect();
+
 
 if(!isset($_SESSION['username']))
 {
