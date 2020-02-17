@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
     $user=mysqli_num_rows($query);
     if($user == 1)
     {
-        header("location:index.php");
+        header("location:home.php");
         $_SESSION['username']=$username;
     }else
     {
