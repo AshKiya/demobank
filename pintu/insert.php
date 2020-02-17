@@ -27,7 +27,7 @@ if(isset($_POST['submit']))
     if($query){
         header("location:index.php");
     }else{
-        echo "Something Went Wrong';
+        echo "Something Went Wrong";
     }
     }
 }
